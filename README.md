@@ -88,6 +88,15 @@ The codebase follows a modular design, allowing extensions for additional factor
 ## 6.1 How to Run the Code
 
 1. Clone this repository:
-   ```bash
-   git clone https://github.com/yourusername/Volatility-Scaled-Momentum-Strategy.git
-   cd Volatility-Scaled-Momentum-Strategy
+   ---
+
+## 🧠 How to Reproduce This Project
+
+To run this project locally, follow these steps:
+
+```bash
+git clone https://github.com/Samuelojum06-art/Volatility-Scaled-Momentum-Strategy.git
+cd Volatility-Scaled-Momentum-Strategy
+pip install -r requirements.txt
+jupyter notebook Volatility_Scaled_Momentum.ipynb
+
