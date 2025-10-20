@@ -1,4 +1,4 @@
-# Quantitative Research Report: Volatility-Scaled Momentum Strategy - Samuel Ojum
+# Quantitative Research Report: Volatility-Scaled Momentum Strategy  Samuel Ojum
 
 ## 1. Overview
 
