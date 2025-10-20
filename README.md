@@ -90,7 +90,7 @@ The codebase follows a modular design, allowing extensions for additional factor
 1. Clone this repository:
    
 
-## How to Reproduce This Project
+## 6.2 How to Reproduce This Project
 
 To run this project locally, follow these steps:
 
