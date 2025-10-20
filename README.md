@@ -6,7 +6,7 @@ This repository contains the full Python implementation and research report for 
 
 Using daily market data from major U.S. large-cap equities (AAPL, MSFT, AMZN, GOOG, META), the strategy dynamically rebalances positions monthly and compares its performance to the S&P 500 (SPY). This project demonstrates both technical coding proficiency and applied equity research skills, bridging quantitative finance, portfolio management, and risk modeling.  
 
----
+
 
 ## 2. Literature Context
 
@@ -14,7 +14,7 @@ The theoretical foundation for this study draws from both the momentum anomaly l
 
 This project builds on those findings by applying volatility scaling at the cross-sectional level, combining factor-based alpha generation with practical risk control ,  similar to techniques used in professional equity research and quantitative portfolio management.  
 
----
+
 
 ## 3. Data and Methodology
 
@@ -30,7 +30,7 @@ Two strategies are tested:
 
 Portfolios are rebalanced monthly to reflect updated signals, and a transaction cost of 10 basis points per trade is deducted to simulate realistic trading conditions. Benchmark performance is represented by the S&P 500 ETF (SPY).
 
----
+
 
 ## 4. Backtesting Framework
 
@@ -49,7 +49,7 @@ Performance attribution decomposes alpha generation into two primary drivers:
 
 Rolling correlation and beta analyses against SPY quantify the strategies’ exposure to systematic versus idiosyncratic risk.
 
----
+
 
 ## 5. Results and Discussion
 
@@ -59,19 +59,19 @@ During crisis periods, such as Q1 2020 (COVID-19 market crash), the volatility-s
 
 While the volatility-scaled approach may slightly underperform in strong bull markets, its superior risk-adjusted performance makes it a valuable addition to professional equity and multi-factor strategies.  
 
----
+
 
 ## 5.1 Key Results Summary
 
 | Strategy                | Annual Return | Annual Vol | Sharpe | Max Drawdown |
-|--------------------------|---------------|-------------|--------|---------------|
+|--||-|--||
 | Standard Momentum        | 11.2%         | 14.7%       | 0.76   | 27%           |
 | Volatility-Scaled        | 10.9%         | 9.3%        | 1.17   | 15%           |
 | Benchmark (SPY)          | 9.8%          | 13.2%       | 0.74   | 25%           |
 
 *(These values are placeholders; actual results will populate after running the code.)*
 
----
+
 
 ## 6. Technical Implementation
 
@@ -83,12 +83,12 @@ The project was developed entirely in Python, using:
 
 The codebase follows a modular design, allowing extensions for additional factors (value, size, quality) or alternative volatility forecasts (e.g., GARCH, EWMA). Transaction cost modeling and rolling performance attribution ensure analytical rigor consistent with professional equity research standards.  
 
----
+
 
 ## 6.1 How to Run the Code
 
 1. Clone this repository:
-   ---
+   
 
 ## How to Reproduce This Project
 
