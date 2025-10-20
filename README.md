@@ -97,6 +97,6 @@ To run this project locally, follow these steps:
 ```bash
 git clone https://github.com/Samuelojum06-art/Volatility-Scaled-Momentum-Strategy.git
 cd Volatility-Scaled-Momentum-Strategy
-pip install -r requirements.txt
+pip install -r Requirements.txt
 jupyter notebook Volatility_Scaled_Momentum.ipynb
 
